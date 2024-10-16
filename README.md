@@ -4,4 +4,4 @@ ERPNext Enhancement for Phamos.eu
 
 #### License
 
-MIT
+AGPLv3 for more info see licence.txt
