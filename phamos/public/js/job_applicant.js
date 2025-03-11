@@ -7,7 +7,7 @@ frappe.ui.form.on("Job Applicant", {
 					doc: frm.doc,
 					callback(r){
 						frappe.msgprint("Invite sent");
-						if (r.message && r.message.custom_shortlisted == "Yes") { 
+						if (r.message && r.message.status == "Accepted") { 
 							frm.reload_doc();
 						}
 					}
